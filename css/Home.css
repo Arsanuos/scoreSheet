@@ -1,0 +1,63 @@
+.container {
+  z-index: 100;
+}
+
+/* NOTE: start of table */
+.table-responsive{
+
+}
+tr > td {
+  height: 51px;
+  line-height: 51px !important;
+}
+
+
+tr > td:nth-child(1),
+tr > td:nth-child(2)
+tr > td:nth-child(4){
+    width: 10%;
+}
+
+tr > td:nth-child(3){
+  width: 40%;
+}
+
+tr > td:nth-child(5){
+  width: 30%;
+}
+
+tr > td:nth-child(5) a {
+  margin: 0px 5px;
+}
+
+/* NOTE: end of table */
+.wavesHeight {
+  height: 500px;
+}
+
+/* NOTE: start of navbar */
+
+.navbar-right li{
+  margin-right: 5px;
+}
+
+/* NOTE: end of navbar */
+
+/* NOTE: start of sorting progress */
+
+.status{
+  margin-top: 60px;
+  height: 29px;
+  line-height: 29px;
+  font-weight: bold;
+  font-size: 15px;
+  opacity:0;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
